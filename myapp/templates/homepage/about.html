@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="{% static 'images/baabtraimage.png' %}" alt="image of baabtra"></center>
+    <center><a href="{% url 'myapp:homepageofbaabtra' %}">Homepage</a>
+    <a href="{% url 'myapp:aboutbaabtra' %}">About</a>
+    <a href="{% url 'myapp:contactbaabtra' %}">Contact us</a></center>
+            <hr>
+</div>
+    <h3 style="font-family: arial;">About Baabtra</h3>
+    Baabtra, the best software training company in Calicut has proved its expertise by training and placing several hundreds of students both in MNC’s like UST Global, Infosys, Oracle etc and SME’s like Nucore Software Solutions, Sesame, IOSS, ULTS and many other companies mainly in Kozhikode, Cochin, Trivandrum and Bangalore.
+</body>
+</html>

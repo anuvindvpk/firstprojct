@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><img src="{% static 'images/baabtraimage.png' %}" alt="image of baabtra"></center>
+    <center><a href="{% url 'myapp:homepageofbaabtra' %}">Homepage</a>
+    <a href="{% url 'myapp:aboutbaabtra' %}">About</a>
+    <a href="{% url 'myapp:contactbaabtra' %}">Contact us</a></center>
+            <hr>
+</div>
+    <center><h3 style="font-family: arial;">Contact us</h3>
+    <hr>
++91 859 205 8444 <br>
+info@baabtra.com <br>
+CAFIT Square, 5th Floor, HiLite Business Park, Thondayad Bye-Pass, Hilite City, Calicut, Kerala, India.</center>
+</body>
+</html>
