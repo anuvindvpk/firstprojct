@@ -12,19 +12,20 @@
     <center><a href="{% url 'myapp:homepageofbaabtra' %}">Homepage</a>
     <a href="{% url 'myapp:aboutbaabtra' %}">About</a>
     <a href="{% url 'myapp:contactbaabtra' %}">Contact us</a></center>
+    <hr>
 <b><u><h3 style="font-family: Arial;">Course Offered:</h3></u></b>
 <br>
 <table width="40%" align="center">
 <tr>
     <td><h3 style="padding-left: 30px;">Python</h3></td>
-    <td><img src="./Python logo.png" height="80px" width="80px"></tr></td>
+    <td><img src="{% static 'images/Python logo.png' %}" height="80px" width="80px"></tr></td>
 <tr>
     <td><h3 style="padding-left: 30px;">Fluture</h3></td>
-    <td><img src="./flutter.png" height="120px" width="120px"></tr></td>
+    <td><img src="{% static 'images/flutter.png' %}" height="120px" width="120px"></tr></td>
 </tr>
 <tr>
     <td><h3 style="padding-left: 30px;">PhP</h3></td>
-    <td><img src="./php_logo_icon_144990.png" height="60px" width="60px"></tr></td>
+    <td><img src="{% static 'images/php_logo.png' %}" height="60px" width="60px"></tr></td>
 </tr>
 </table>
 </body>
